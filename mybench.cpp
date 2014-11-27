@@ -36,8 +36,6 @@ static const char* short_options = "r:t:c:v?hk";
 
 static const struct option long_options[]=
 {
-    {"proxy",required_argument,NULL,'p'},
-
     {"round",       required_argument,  NULL,    'r'},
     {"time",        required_argument,  NULL,    't'},
     {"clients",     required_argument,  NULL,    'c'},
